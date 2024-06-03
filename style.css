@@ -468,9 +468,6 @@ article .icon {
   cursor: pointer;
 }
 
-.contact-info-container img {
-    cursor: pointer;
-}
 
 .contact-info-container p:hover {
     color: var(--secondary-color);
