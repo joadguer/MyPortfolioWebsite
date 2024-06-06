@@ -490,3 +490,21 @@ footer p {
   text-align: center;
 }
 
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+  
+.text-container {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* h1 {
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+h3 {
+  font-family: 'Lobster';
+} */
