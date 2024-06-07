@@ -10,7 +10,7 @@
     }
 
     #about {
-        flex-wrap: wrap;
+        flex-wrap: wrap;    
     }
 }
 
@@ -20,7 +20,10 @@
     }
     #hamburger-nav{
         display: flex;
-
+    }
+    .menu-links {
+        z-index: 1000000; 
+        /* for making the hamburger menu show in front of the image */
     }
     #experience, .experience-details-container {
         margin-top:2rem;
