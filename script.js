@@ -47,3 +47,6 @@ function setLightMode(){
     icon.src = icon.getAttribute("src-light"); 
   })
 };
+
+console.log(`Ancho de la pantalla: ${window.innerWidth}px`);
+console.log(`Alto de la pantalla: ${window.innerHeight}px`);

@@ -40,6 +40,7 @@
 h3 {
   color: var(--secondary-color);
 }
+
 Body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
@@ -74,6 +75,7 @@ a,
 footer {
     background-color: var(--primary-color-2);
 }
+
 nav,
 .nav-links {
   display: flex;
@@ -87,9 +89,9 @@ nav {
 
 nav li:last-child {
   width: max-content;
-  display: flex;
+  /* display: flex; */
   margin: auto;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .nav-links {
@@ -203,8 +205,10 @@ a:hover {
 /*sections*/
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  /* height 96vh es el codigo original */
+  /* height: 96vh;  */
+  height: 100%;
+  margin: 3.5rem 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -215,21 +219,30 @@ section {
 
 #profile {
   display: flex;
+  margin: 2rem;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  position:relative;
+  /* orignal version */
+  /* height: 80vh; */
+  height: 80%;
+
 }
 
 .section__pic-container {
   display: flex;
+  /* height: 400px;
+  width: 400px; */
   height: 400px;
   width: 400px;
   margin: auto 0;
 }
 
 .section__text {
+    height: 70%;
   align-self: center;
   text-align: center;
+  margin: 1rem;
 }
 
 .section__text p {
@@ -238,11 +251,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  margin: 1rem
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  margin: 1rem
 }
 
 .title {
@@ -332,23 +347,29 @@ section {
 
 #about {
   position: relative;
+  /* margin: 1rem */
 }
+
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-}
-
-.about-details-container {
-  justify-content: center;
-  flex-direction: column;
+  display: flex;
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
 }
+
+.about-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
 
 .about-pic {
   border-radius: 2rem;
@@ -375,9 +396,9 @@ section {
   height: 80%;
 }
 
-#experience {
+/* #experience {
   position: relative;
-}
+} */
 
 .experience-sub-title {
   color: var(--secondary-color);
@@ -412,9 +433,9 @@ article .icon {
   cursor: default;
 }
 
-#projects {
+/* #projects {
   position: relative;
-}
+} */
 
 .color-container {
   border-color: var(--container-border);
